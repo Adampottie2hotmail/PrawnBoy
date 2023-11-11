@@ -26,6 +26,10 @@ form.addEventListener('submit', function(event) {
       window.location = "home.html";
       alert('Welcome Back, sysadmin')
 
+    } else if (username === 'technician' && password === '1886wysiwyG') {
+      window.location = "home.html";
+      alert('Welcome Back, technician')
+
     } else {
         alert('Username or password incorrect. Please try again.');
     }
